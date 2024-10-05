@@ -14,12 +14,15 @@
     "react": "^18",
     "react-dom": "^18",
     "react-filepond": "^7.1.2",
+    "react-hot-toast": "^2.4.1",
+    "react-lottie": "^1.2.4",
     "uuid": "^10.0.0"
   },
   "devDependencies": {
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "@types/react-lottie": "^1.2.10",
     "@types/uuid": "^10.0.0",
     "eslint": "^8",
     "eslint-config-next": "14.2.14",
