@@ -33,8 +33,11 @@ export default function FileUpload() {
       />
 
       {fileResponse && (
-        // @ts-ignore
-        <div className="p-5">{fileResponse && <pre>{fileResponse.parsedText}</pre>}</div>
+        <div className="p-5">
+          <h1 className="font-black text-xl">Text from the Pdf :-</h1>
+          {/* @ts-expect-error - This is needed because it giving parsedText is not found on type never */}
+          <pre className="text-wrap p-5">{fileResponse.parsedText}</pre>
+        </div>
       )}
     </div>
   );
